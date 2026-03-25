@@ -1,0 +1,229 @@
+<!-- psst. hey. you found a discount code! Tell me this code before sending payment! </!-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zen's Builds</title>
+<style>
+body{
+font-family:Arial,sans-serif;
+background:#0b0f14;
+color:white;
+margin:0;
+}
+
+header{
+padding:60px 20px;
+text-align:center;
+background:linear-gradient(180deg,#0b0f14,#111827);
+border-bottom:2px solid #00c3ff;
+}
+
+main{
+display:grid;
+grid-template-areas:
+"title title"
+"info side"
+"info reviews"
+"buttons buttons"
+"footer footer";
+grid-template-columns:1fr 1fr;
+gap:20px;
+padding:30px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+.title{
+grid-area:title;
+text-align:center;
+border:1px solid #00c3ff;
+padding:15px;
+border-radius:10px;
+}
+
+.info{
+grid-area:info;
+border:1px solid #00c3ff;
+padding:15px;
+border-radius:10px;
+}
+
+.side{
+grid-area:side;
+border:1px solid #00c3ff;
+padding:15px;
+border-radius:10px;
+}
+
+.reviews{
+grid-area:reviews;
+border:1px solid #00c3ff;
+padding:15px;
+border-radius:10px;
+text-align:center;
+}
+
+.buttons{
+grid-area:buttons;
+text-align:center;
+border:1px solid #00c3ff;
+padding:20px;
+border-radius:10px;
+}
+
+.buttons a{
+display:inline-block;
+margin:10px;
+padding:18px 30px;
+background:#00c3ff;
+color:black;
+text-decoration:none;
+border-radius:12px;
+font-weight:bold;
+font-size:18px;
+}
+
+.buttons a:hover{
+background:#009fd1;
+}
+
+.review-btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 25px;
+background:#22c55e;
+color:black;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+.review-btn:hover{
+background:#1ea853;
+}
+
+.links{
+grid-area:buttons;
+text-align:center;
+border:1px solid #00c3ff;
+padding:20px;
+border-radius:10px;
+background:transparent;
+}
+
+.links a{
+display:inline-block;
+margin:10px;
+padding:15px 25px;
+background:#00c3ff;
+color:black;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+font-size:16px;
+transition:background 0.3s ease;
+}
+
+.links a:hover{
+background:#009fd1;
+}
+
+@media (max-width: 768px) {
+main{
+grid-template-columns:1fr;
+grid-template-areas:
+"title"
+"info"
+"side"
+"reviews"
+"buttons"
+"footer";
+}
+
+.buttons a, .links a{
+padding:15px 20px;
+font-size:16px;
+}
+}
+
+footer{
+grid-area:footer;
+margin-top:20px;
+padding:20px;
+color:#6b7280;
+text-align:center;
+border-top:2px solid #00c3ff;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Zen's Builds</h1>
+<p>Minecraft builds, simplified. </p>
+</header>
+
+<main>
+
+<section class="title">
+<h2>Choose your payment.</h2>
+</section>
+
+<section class="info">
+
+<h3>About Zen's Builds</h3>
+<p>Hello, I'm Zenith! If you want me to build something for you (for example a house, farm, bunker.. etc.), 
+    join my Discord server! You can make a ticket there to request a build.</p>
+
+<h3>Payment Options</h3>
+<ul>
+<li><b>Free</b></li>
+<li><b>1-3 €</b></li>
+<li><b>3-6 €</b></li>
+<li><b>6-10 €</b></li>
+</ul>
+
+<h3>FAQ</h3>
+<p><b>Can I not pay?</b> Yes, I just want to build something for you!</p>
+<p><b>How long can it take?</b> It depends on the complexity of the build, but I'll do my best to complete it as soon as possible!</p>
+<p><b>What if I change my mind?</b> You can always reach out to me on Discord to discuss any changes or cancellations.</p>
+
+</section>
+
+<section class="side">
+
+<h3>Meet The Team</h3>
+
+<div style="background:#111827;padding:15px;border-radius:12px;margin-bottom:15px;">
+<h4>Zenith</h4>
+<p>Main Builder, Founder</p>
+</div>
+
+</section>
+
+<section class="reviews">
+
+<h3>User Reviews</h3>
+<p style="font-size:14px; color:#9ca3af; margin:10px 0;">Share your experience with our Minecraft builds!</p>
+<a class="review-btn" href="https://forms.gle/wo5RhogiTD9iFxPNA">Leave a Review</a>
+
+</section>
+
+<section class="links">
+<a href="https://youtube.com/@zenith07xx">YouTube</a>
+<a href="https://discord.gg/GABZDMdMng">Join Discord</a>
+<a href="https://paypal.me/zenith07x">PayPal</a>
+</section>
+
+</main>
+
+<footer>
+© Zen's Builds, 2026. All rights reserved.
+</footer>
+
+</body>
+</html>
